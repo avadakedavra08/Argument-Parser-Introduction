@@ -33,3 +33,10 @@ obj.func()
 # to display.
 # p = vars(obj.func())
 # print(p)
+
+'''
+cv2.imread() : 
+
+
+
+'''
