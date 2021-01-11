@@ -15,6 +15,8 @@ ap = argparse.ArgumentParser()
 # Versions to be used in command lines.
 ap.add_argument("-n","--name",required = True,help="Name of the User")
 
+# For multiple arguments through command line. multiple times the  object needs to be used.
+ap.add_argument("-r","--rname",required = True,help="Gaming name of the User")
 # -n -> Shorthand versions
 # --name -> Longhand versions
 # required = True -> This is a compulsory required argument.
@@ -30,4 +32,5 @@ args = vars(ap.parse_args())
 print("Argument Parser Object :",args)
 
 # args["name"] receiving the command line argument as entered by the user.
-print("Hello from the other side, {}".format(args["name"]))
+print("Hello from the other side, {},{}".format(args["name"],args["rname"]))
+
