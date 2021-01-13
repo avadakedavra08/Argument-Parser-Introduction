@@ -8,8 +8,8 @@ The __dict__ attribute is a dictionary containing the object's changeable attrib
 '''
 
 class TestFunction :
-    name = "Shalini"
-    charac = "Genius"
+    name = "Harry"
+    charac = "Potter"
 
     def func(self):
         var = 3
